@@ -1,34 +1,34 @@
 <testsuites>
-<testsuite name="" tests="1" failures="0" errors="0" skipped="6" timestamp="Mon, 03 Aug 2020 00:42:28 GMT" time="27.043">
-<testcase classname="" name="C338 - Verify login using existing user #smoke #sanity #stable" time="6.701">
+<testsuite name="Login page" tests="1" failures="0" errors="0" skipped="6" timestamp="Mon, 03 Aug 2020 00:42:28 GMT" time="27.043">
+<testcase classname="Login page" name="C338 - Verify login using existing user #smoke #sanity #stable" time="6.701">
 </testcase>
-<testcase classname="" name="C11695 - Verify details on the login page #regression #stable" time="0">
+<testcase classname="Login page" name="C11695 - Verify details on the login page #regression #stable" time="0">
 </testcase>
-<testcase classname="" name="C11697 - should throw an error when an empty email is entered #regression #stable" time="0">
+<testcase classname="Login page" name="C11697 - should throw an error when an empty email is entered #regression #stable" time="0">
 </testcase>
-<testcase classname="" name="C11698 - leaving password field empty and clicking login button shows proper validation #regression #stable" time="0">
+<testcase classname="Login page" name="C11698 - leaving password field empty and clicking login button shows proper validation #regression #stable" time="0">
 </testcase>
-<testcase classname="" name="should throw an error when an invalidly formatted email is entered #sanity #stable" time="0">
+<testcase classname="Login page" name="should throw an error when an invalidly formatted email is entered #sanity #stable" time="0">
 </testcase>
-<testcase classname="" name="C342 - Verify login with invalid credentials shows error message #smoke #sanity #stable" time="9.809">
+<testcase classname="Login page" name="C342 - Verify login with invalid credentials shows error message #smoke #sanity #stable" time="9.809">
 </testcase>
-<testcase classname="" name="Verify login with the user save checkbox checked(default) #smoke #stable" time="10.533">
+<testcase classname="Login page" name="Verify login with the user save checkbox checked(default) #smoke #stable" time="10.533">
 </testcase>
-<testcase classname="" name="Verify login with the user save checkbox unchecked" time="0">
+<testcase classname="Login page" name="Verify login with the user save checkbox unchecked" time="0">
 </testcase>
-<testcase classname="" name="C344 - Verify login via SSO #smoke #sanity" time="0">
-</testcase>
-</testsuite>
-<testsuite name="" tests="1" failures="0" errors="0" skipped="2" timestamp="Mon, 03 Aug 2020 00:42:28 GMT" time="0">
-<testcase classname="" name="C343 - Verify logout multiple times #sanity #smoke" time="0">
-</testcase>
-<testcase classname="" name="browser back button does not bypass auth #sanity #stable" time="0">
+<testcase classname="Login page" name="C344 - Verify login via SSO #smoke #sanity" time="0">
 </testcase>
 </testsuite>
-<testsuite name="" tests="1" failures="0" errors="0" skipped="0" timestamp="Mon, 03 Aug 2020 00:42:33 GMT" time="4.77">
-<testcase classname="" name="C908184 - Verify signup with user which already existing in system throw error &quot;Unable to register. Please contact your local IT Administrator #smoke #sanity #stable" time="1.328">
+<testsuite name="Logout" tests="1" failures="0" errors="0" skipped="2" timestamp="Mon, 03 Aug 2020 00:42:28 GMT" time="0">
+<testcase classname="Logout" name="C343 - Verify logout multiple times #sanity #smoke" time="0">
 </testcase>
-<testcase classname="" name="C1834152 - Verify Signup with new email #smoke #sanity #stable" time="3.442">
+<testcase classname="Logout" name="browser back button does not bypass auth #sanity #stable" time="0">
+</testcase>
+</testsuite>
+<testsuite name="SignUp page" tests="1" failures="0" errors="0" skipped="0" timestamp="Mon, 03 Aug 2020 00:42:33 GMT" time="4.77">
+<testcase classname="SignUp page" name="C908184 - Verify signup with user which already existing in system throw error &quot;Unable to register. Please contact your local IT Administrator #smoke #sanity #stable" time="1.328">
+</testcase>
+<testcase classname="SignUp page" name="C1834152 - Verify Signup with new email #smoke #sanity #stable" time="3.442">
 </testcase>
 </testsuite>
 </testsuites>
