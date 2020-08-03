@@ -3,7 +3,7 @@
 <testsuite name="Login page" tests="9" failures="0" errors="0" skipped="6" timestamp="" time="27.043">
 <testcase classname="Login page" name="C338 - Verify login using existing user #smoke #sanity #stable" time="6.701">
 <system-out>
-"      <samp><span style=\"color:#0d9c0b\">✓</span></samp> login using an existing user"</system-out>
+&quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; login using an existing user&quot;</system-out>
 </testcase>
 <testcase classname="Login page" name="C11695 - Verify details on the login page #regression #stable" time="0">
 <skipped/>
@@ -20,16 +20,16 @@
 <testcase classname="Login page" name="C342 - Verify login with invalid credentials shows error message #smoke #sanity #stable" time="9.809">
 <system-out>
 [
-  "      <samp><span style=\"color:#0d9c0b\">✓</span></samp> attempt login using an invalid user",
-  "      <samp><span style=\"color:#0d9c0b\">✓</span></samp> login with an incorrect password"
+  &quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; attempt login using an invalid user&quot;,
+  &quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; login with an incorrect password&quot;
 ]</system-out>
 </testcase>
 <testcase classname="Login page" name="Verify login with the user save checkbox checked(default) #smoke #stable" time="10.533">
 <system-out>
 [
-  "      <samp><span style=\"color:#0d9c0b\">✓</span></samp> login with the user save checkbox checked(default)",
-  "      <samp><span style=\"color:#0d9c0b\">✓</span></samp> login again to view saved user",
-  "      <samp><span style=\"color:#0d9c0b\">✓</span></samp> change user"
+  &quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; login with the user save checkbox checked(default)&quot;,
+  &quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; login again to view saved user&quot;,
+  &quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; change user&quot;
 ]</system-out>
 </testcase>
 <testcase classname="Login page" name="Verify login with the user save checkbox unchecked" time="0">
@@ -54,11 +54,11 @@
 <testsuite name="SignUp page" tests="2" failures="0" errors="0" skipped="0" timestamp="" time="4.77">
 <testcase classname="SignUp page" name="C908184 - Verify signup with user which already existing in system throw error &quot;Unable to register. Please contact your local IT Administrator #smoke #sanity #stable" time="1.328">
 <system-out>
-"      <samp><span style=\"color:#0d9c0b\">✓</span></samp> Verify Signup with existing email show proper message (should throw an error)"</system-out>
+&quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; Verify Signup with existing email show proper message (should throw an error)&quot;</system-out>
 </testcase>
 <testcase classname="SignUp page" name="C1834152 - Verify Signup with new email #smoke #sanity #stable" time="3.442">
 <system-out>
-"      <samp><span style=\"color:#0d9c0b\">✓</span></samp> Verify Signup with new email"</system-out>
+&quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; Verify Signup with new email&quot;</system-out>
 </testcase>
 </testsuite>
 </testsuite>
