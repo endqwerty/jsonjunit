@@ -1,4 +1,4 @@
-<testsuites">
+<testsuites>
 <testsuite name="" tests="1" failures="0" skipped="6" timestamp="Mon, 03 Aug 2020 00:42:28 GMT" time="27.043">
 <testcase classname="" name="C338 - Verify login using existing user #smoke #sanity #stable" time="6.701">
 </testcase>
