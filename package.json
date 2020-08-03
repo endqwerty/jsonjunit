@@ -7,7 +7,7 @@
     "jsonjunit": "./index.js"
   },
   "scripts": {
-    "test": "node ./index.js -ju tests/json -jx tests/junit"
+    "test": "node ./index.js -ju tests/json -jx tests/junit && verify-junit-xml tests/junit/sample.xml"
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,7 @@
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-mocha": "6.3.0",
     "eslint-plugin-prettier": "3.1.3",
-    "prettier": "1.13.0"
+    "prettier": "1.13.0",
+    "verify-junit-xml": "^0.0.3"
   }
 }
