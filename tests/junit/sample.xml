@@ -1,7 +1,5 @@
 <testsuites>
 <testsuite name="" tests="1" failures="0" errors="0" skipped="6" timestamp="Mon, 03 Aug 2020 00:42:28 GMT" time="27.043">
-<testsuite name="" tests="1" failures="0" errors="0" skipped="6" timestamp="Mon, 03 Aug 2020 00:42:28 GMT" time="27.043">
-
 <testcase classname="" name="C338 - Verify login using existing user #smoke #sanity #stable" time="6.701">
 </testcase>
 <testcase classname="" name="C11695 - Verify details on the login page #regression #stable" time="0">
@@ -20,7 +18,6 @@
 </testcase>
 <testcase classname="" name="C344 - Verify login via SSO #smoke #sanity" time="0">
 </testcase>
-</testsuite>
 </testsuite>
 <testsuite name="" tests="1" failures="0" errors="0" skipped="2" timestamp="Mon, 03 Aug 2020 00:42:28 GMT" time="0">
 <testcase classname="" name="C343 - Verify logout multiple times #sanity #smoke" time="0">
