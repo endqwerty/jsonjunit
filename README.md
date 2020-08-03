@@ -51,6 +51,10 @@ where PATH_TO_JSON is a path from your current working directory to the director
 
 All *.json files will be converted to *.xml with the same filename
 
+## DEV
+
+Useful junit format definition
+https://github.com/windyroad/JUnit-Schema/blob/master/JUnit.xsd
 
 License
 -------
