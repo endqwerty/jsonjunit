@@ -10,7 +10,13 @@ It accepts parameters for the path to json files and the destination path for co
 json-junit should be added to your test codebase as a dev dependency.  You can do this with:
 
 ``` shell
-$ npm install --save-dev jsonjunit
+npm install --save-dev jsonjunit
+```
+
+or
+
+``` shell
+yarn add --dev jsonjunit
 ```
 
 Alternatively, you can manually add it to your package.json file:
@@ -26,16 +32,24 @@ Alternatively, you can manually add it to your package.json file:
 then install with:
 
 ``` shell
-$ npm install --dev
+npm install --dev
+```
+
+or
+
+``` shell
+yarn install
 ```
 
 ## Run
 
 ``` shell
-$ node_modules/.bin/jsonjunit --json PATH_TO_JSON --junit PATH_TO_JUNITXML
+$ node_modules/.bin/jsonjunit --json PATH_TO_JSON_DIRECTORY --junit PATH_TO_JUNITXML_DIRECTORY
 ```
 
-where PATH_TO_JSON is a path from your current working directory to the JSON files you wish to convert, and PATH_TO_JUNITXML is a path to the directory where you wish to create the converted JUnitXML files.
+where PATH_TO_JSON is a path from your current working directory to the directory containing JSON files you wish to convert, and PATH_TO_JUNITXML is a path to the directory where you wish to create the converted JUnitXML files.
+
+All *.json files will be converted to *.xml with the same filename
 
 
 License
