@@ -4,10 +4,13 @@
 <testcase classname="Login page" name="C338 - Verify login using existing user #smoke #sanity #stable" time="6.701">
 </testcase>
 <testcase classname="Login page" name="C11695 - Verify details on the login page #regression #stable" time="0">
+<skipped></skipped>
 </testcase>
 <testcase classname="Login page" name="C11697 - should throw an error when an empty email is entered #regression #stable" time="0">
+<skipped></skipped>
 </testcase>
 <testcase classname="Login page" name="C11698 - leaving password field empty and clicking login button shows proper validation #regression #stable" time="0">
+<skipped></skipped>
 </testcase>
 <testcase classname="Login page" name="should throw an error when an invalidly formatted email is entered #sanity #stable" time="0">
 </testcase>
