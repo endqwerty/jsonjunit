@@ -1,5 +1,5 @@
 {
-  "name": "jsonjunit",
+  "name": "json-to-junit",
   "version": "2.0.0",
   "description": "JSON to JunitXML converter",
   "main": "index.js",
