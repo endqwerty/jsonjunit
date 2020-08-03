@@ -1,4 +1,4 @@
-<testsuites">
+<testsuites>
 <testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
 <testsuite name="Login page" tests="9" failures="0" errors="0" skipped="6" timestamp="" time="27.043">
 <testcase classname="Login page" name="C338 - Verify login using existing user #smoke #sanity #stable" time="6.701">
