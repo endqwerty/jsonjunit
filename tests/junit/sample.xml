@@ -1,64 +1,838 @@
 <testsuites>
 <testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
-<testsuite name="Login page" tests="9" failures="0" errors="0" skipped="6" timestamp="" time="27.043">
-<testcase classname="Login page" name="C338 - Verify login using existing user #smoke #sanity #stable" time="6.701">
-<system-out>
-&quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; login using an existing user&quot;</system-out>
-</testcase>
-<testcase classname="Login page" name="C11695 - Verify details on the login page #regression #stable" time="0">
-<skipped/>
-</testcase>
-<testcase classname="Login page" name="C11697 - should throw an error when an empty email is entered #regression #stable" time="0">
-<skipped/>
-</testcase>
-<testcase classname="Login page" name="C11698 - leaving password field empty and clicking login button shows proper validation #regression #stable" time="0">
-<skipped/>
-</testcase>
-<testcase classname="Login page" name="should throw an error when an invalidly formatted email is entered #sanity #stable" time="0">
-<skipped/>
-</testcase>
-<testcase classname="Login page" name="C342 - Verify login with invalid credentials shows error message #smoke #sanity #stable" time="9.809">
-<system-out>
-[
-  &quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; attempt login using an invalid user&quot;,
-  &quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; login with an incorrect password&quot;
-]</system-out>
-</testcase>
-<testcase classname="Login page" name="Verify login with the user save checkbox checked(default) #smoke #stable" time="10.533">
-<system-out>
-[
-  &quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; login with the user save checkbox checked(default)&quot;,
-  &quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; login again to view saved user&quot;,
-  &quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; change user&quot;
-]</system-out>
-</testcase>
-<testcase classname="Login page" name="Verify login with the user save checkbox unchecked" time="0">
-<skipped/>
-</testcase>
-<testcase classname="Login page" name="C344 - Verify login via SSO #smoke #sanity" time="0">
+<testsuite name="Appointments -Verify adding an appointment for test patient and assigning it to a test provider also check the created appointment on calendar" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Appointments -Verify adding an appointment for test patient and assigning it to a test provider also check the created appointment on calendar" name="C374 &amp; C1024963 - Verify adding an appointment for test patient and assigning it to a test provider also check the created appointment on calendar #smoke" time="0">
 <skipped/>
 </testcase>
 </testsuite>
 </testsuite>
 <testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
-<testsuite name="Logout" tests="2" failures="0" errors="0" skipped="2" timestamp="" time="0">
-<testcase classname="Logout" name="C343 - Verify logout multiple times #sanity #smoke" time="0">
-<skipped/>
-</testcase>
-<testcase classname="Logout" name="browser back button does not bypass auth #sanity #stable" time="0">
+<testsuite name=" Verify editing an appointment for test patient via patient details screen" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname=" Verify editing an appointment for test patient via patient details screen" name="C982337 - Verify editing an appointment for test patient via patient details screen #smoke" time="0">
 <skipped/>
 </testcase>
 </testsuite>
 </testsuite>
 <testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
-<testsuite name="SignUp page" tests="2" failures="0" errors="0" skipped="0" timestamp="" time="4.77">
-<testcase classname="SignUp page" name="C908184 - Verify signup with user which already existing in system throw error &quot;Unable to register. Please contact your local IT Administrator #smoke #sanity #stable" time="1.328">
+<testsuite name="Admin reject signup request" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="13.469">
+<testcase classname="Admin reject signup request" name="C73873 - Verify admin user is able to reject sign up request #smoke #sanity #stable" time="13.469">
 <system-out>
-&quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; Verify Signup with existing email show proper message (should throw an error)&quot;</system-out>
+[
+  &quot;✓should send sign up request&quot;,
+  &quot;✓should login into sites&quot;,
+  &quot;✓should logged in with existing user&quot;,
+  &quot;✓should navigate to system settings page&quot;,
+  &quot;✓should fetch and scroll to user signup request&quot;,
+  &quot;✓should decline signup request and verify decline message is appearing&quot;
+]</system-out>
 </testcase>
-<testcase classname="SignUp page" name="C1834152 - Verify Signup with new email #smoke #sanity #stable" time="3.442">
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify deleting an appointment from appointment calendar" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="28.401">
+<testcase classname="Verify deleting an appointment from appointment calendar" name="C1024963- Verify deleting an appointment from appointment calendar #smoke #stable" time="28.401">
 <system-out>
-&quot;      &lt;samp&gt;&lt;span style=\&quot;color:#0d9c0b\&quot;&gt;✓&lt;/span&gt;&lt;/samp&gt; Verify Signup with new email&quot;</system-out>
+[
+  &quot;✓Should login on sites&quot;,
+  &quot;✓Should navigate to Patient screen&quot;,
+  &quot;✓Should add new Patient&quot;,
+  &quot;✓Should navigate to appointment screen from patient detail&quot;,
+  &quot;✓Should create an appointment&quot;,
+  &quot;✓Should delete an appointment&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Appointments - Verify editing and deleting an appointment on patient appointment calendar" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="33.118">
+<testcase classname="Appointments - Verify editing and deleting an appointment on patient appointment calendar" name="C982338 &amp; C1024963 - Verify editing and deleting an appointment on patient appointment calendar #smoke #stable" time="33.118">
+<system-out>
+[
+  &quot;✓add new Patient&quot;,
+  &quot;✓navigate to appointment page&quot;,
+  &quot;✓navigate to add appointment page&quot;,
+  &quot;✓adding appointment&quot;,
+  &quot;✓verify created appointment is visible on calendar&quot;,
+  &quot;✓edit and save appointment&quot;,
+  &quot;✓delete appointment&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Signup from provider" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Signup from provider" name="C908183 - Verify signup with new provider #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="SignUp page" tests="2" failures="0" errors="0" skipped="0" timestamp="" time="4.259">
+<testcase classname="SignUp page" name="C908184 - Verify signup with user which already existing in system throw error &quot;Unable to register. Please contact your local IT Administrator #smoke #sanity #stable" time="1.94">
+<system-out>
+&quot;✓Verify Signup with existing email show proper message (should throw an error)&quot;</system-out>
+</testcase>
+<testcase classname="SignUp page" name="C1834152 - Verify Signup with new email #smoke #sanity #stable" time="2.319">
+<system-out>
+&quot;✓Verify Signup with new email&quot;</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="SSO login" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="SSO login" name="C780038 - Verify if AD groups and allowed groups miss match, SSO login should not work #smoke #sanity #envstable" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Account lock error message" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="70.865">
+<testcase classname="Account lock error message" name="C341 - Verify account lock error message is appearing for valid user when no of try extends 3 or 5 #smoke #sanity #stable" time="70.865">
+<system-out>
+[
+  &quot;✓login&quot;,
+  &quot;✓Invite user and join with newly created user&quot;,
+  &quot;✓Login with invalid credentials&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="forget and change password" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="68.023">
+<testcase classname="forget and change password" name="C345 - Verify change password flow along with password rules as defined in system and user should able to login with new creds. #smoke #sanity #stable" time="68.023">
+<system-out>
+[
+  &quot;✓login&quot;,
+  &quot;✓should invite a new user&quot;,
+  &quot;✓should join site for new user&quot;,
+  &quot;✓should change user password&quot;,
+  &quot;✓should assert password is changed&quot;,
+  &quot;✓should login with new password&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify user is able to print my calendar schedules entries in month view" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify user is able to print my calendar schedules entries in month view" name="C950603 -  Calendar - Verify user is able to print my calendar schedules entries in month view #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="reassign a case to a different user" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="reassign a case to a different user" name="C981 - Verify assigning a case to provider #regression" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify attachements on Clinial Portal are allowed / not allowed when check is Disabled / Enabled from settings" tests="2" failures="0" errors="0" skipped="2" timestamp="" time="0">
+<testcase classname="Verify attachements on Clinial Portal are allowed / not allowed when check is Disabled / Enabled from settings" name="C383 - Verify attachements on Clinial Portal are allowed when check is Disabled from settings. #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+<testcase classname="Verify attachements on Clinial Portal are allowed / not allowed when check is Disabled / Enabled from settings" name="C384 - Verify attachements on Clinial Portal are not allowed when check is Enabled from settings. #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify if any case form is deactivated at enterprise level, it should not appear in forms list" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify if any case form is deactivated at enterprise level, it should not appear in forms list" name="C780049 - Verify if any case form is deactivated at enterprise level, it should not appear in forms list #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Add imaging form if not exist on any selected service line" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Add imaging form if not exist on any selected service line" name="C388 - add imaging form if not exist on any selected service line #sanity #smoke" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify the presence of share option after archiving the cases" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify the presence of share option after archiving the cases" name="C1840649 - Verify the presence of share option after archiving the cases #regression #envstable" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Login page" tests="9" failures="0" errors="0" skipped="1" timestamp="" time="47.953">
+<testcase classname="Login page" name="C338 - Verify login using existing user #smoke #sanity #stable" time="9.379">
+<system-out>
+&quot;✓login using an existing user&quot;</system-out>
+</testcase>
+<testcase classname="Login page" name="C11695 - Verify details on the login page #regression #stable" time="2.579">
+<system-out>
+&quot;✓navigate to login page&quot;</system-out>
+</testcase>
+<testcase classname="Login page" name="C11697 - should throw an error when an empty email is entered #regression #stable" time="4.223">
+<system-out>
+&quot;✓attempt login with an empty email&quot;</system-out>
+</testcase>
+<testcase classname="Login page" name="C11698 - leaving password field empty and clicking login button shows proper validation #regression #stable" time="4.085">
+<system-out>
+&quot;✓login with an empty password&quot;</system-out>
+</testcase>
+<testcase classname="Login page" name="C1836208 - should throw an error when an invalidly formatted email is entered #sanity #stable" time="3.776">
+<system-out>
+&quot;✓login with email in invalid format&quot;</system-out>
+</testcase>
+<testcase classname="Login page" name="C342 - Verify login with invalid credentials shows error message #smoke #sanity #stable" time="7.707">
+<system-out>
+[
+  &quot;✓attempt login using an invalid user&quot;,
+  &quot;✓login with an incorrect password&quot;
+]</system-out>
+</testcase>
+<testcase classname="Login page" name="C1838431 - Verify login with the user save checkbox checked(default) #smoke #stable" time="8.598">
+<system-out>
+[
+  &quot;✓login with the user save checkbox checked(default)&quot;,
+  &quot;✓login again to view saved user&quot;,
+  &quot;✓change user&quot;
+]</system-out>
+</testcase>
+<testcase classname="Login page" name="C1836209 - Verify login with the user save checkbox unchecked #stable" time="7.606">
+<system-out>
+[
+  &quot;✓login with the user save checkbox unchecked&quot;,
+  &quot;✓login again to view user is not saved&quot;
+]</system-out>
+</testcase>
+<testcase classname="Login page" name="C344 - Verify login via SSO #smoke #sanity #envstable" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify user should unassign assigned case" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify user should unassign assigned case" name="C349 - Verify user should unassign assigned case #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify notification appears once the case is assigned/Reassigned and complete" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify notification appears once the case is assigned/Reassigned and complete" name="C360 &amp; C908188 - Verify notification appears once the case is assigned/Reassigned and complete #smoke" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify user can cancel a case" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify user can cancel a case" name="C352 - Verify user can cancel a case #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verifying case creation and collaboration messages" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verifying case creation and collaboration messages" name="C485154 - Case details - verifying collaboration details on case details page #smoke" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verifying that cancelling a form should not display the &quot;Modified Form&quot; message on the collaboration panel" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verifying that cancelling a form should not display the &quot;Modified Form&quot; message on the collaboration panel" name="C1307595 - Case details - cancelling a form does not display the form modified message #smoke" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Appointments Regression TestCases " tests="5" failures="1" errors="1" skipped="0" timestamp="" time="26.528">
+<testcase classname="Appointments Regression TestCases " name="C1838462 - Verify adding a new patient with MRN #regression #stable" time="2.378">
+<system-out>
+&quot;✓Verify adding a new patient with MRN&quot;</system-out>
+</testcase>
+<testcase classname="Appointments Regression TestCases " name="C1838463 - Verify Screen should navigate to the appointments page #regression #stable" time="0.886">
+<system-out>
+&quot;✓Verify Screen should navigate to the appointments page&quot;</system-out>
+</testcase>
+<testcase classname="Appointments Regression TestCases " name="C1838464 - Verify creating an appointment #regression #stable" time="18.954">
+<system-out>
+&quot;✓Verify creating an appointment&quot;</system-out>
+</testcase>
+<testcase classname="Appointments Regression TestCases " name="C1838484 - Verify created appointment is displayed in the day, week, and month view of calendar #regression #stable" time="2.664">
+<system-out>
+[
+  &quot;✓Verify created appointment is displayed in month view of calendar&quot;,
+  &quot;✓Verify created appointment is displayed in week view of calendar&quot;,
+  &quot;✓Verify created appointment is displayed in day view of calendar&quot;
+]</system-out>
+</testcase>
+<testcase classname="Appointments Regression TestCases " name="C1838465 - Verify created Appointment has been clicked and should able to checkIn #regression #stable" time="1.646">
+<failure message="WebDriverError: element click intercepted: Element &lt;a class=&quot;fc-time-grid-event fc-v-event fc-event fc-start fc-end fc-draggable fc-resizable primary&quot; style=&quot;top: 619.6px; bottom: -833.6px; z-index: 1; left: 0%; right: 50%;&quot;&gt;...&lt;/a&gt; is not clickable at point (737, 994). Other element would receive the click: &lt;p class=&quot;wrapper__text&quot;&gt;...&lt;/p&gt;
+  (Session info: headless chrome=81.0.4044.92)
+Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:25:53&#39;
+System info: host: &#39;b9af055c3756&#39;, ip: &#39;192.168.224.3&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;4.15.0-1077-aws&#39;, java.version: &#39;11.0.6&#39;
+Driver info: driver.version: unknown">
+
+</failure>
+<system-out>
+[
+  &quot;✗Verify above created Appointment has been clicked&quot;,
+  &quot;screenshots/screenshot-1602903289749.png&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Assigned case should show up in my cases" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Assigned case should show up in my cases" name="C199 - Assigned case should show up in my cases #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify user is able to edit pending case (atleast twice)" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify user is able to edit pending case (atleast twice)" name="C350 - cases - Verify user is able to edit pending case #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify user is able to share case details via fax" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify user is able to share case details via fax" name="C402 - Verify user is able to share case details via fax #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify user can edit patient name and MRN on intake - case details page" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify user can edit patient name and MRN on intake - case details page" name="C356 - Verify user can edit patient name and MRN on intake - case details page #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify user should not see fax sharing option if Faxing using Phaxio is disabled at enterprise level" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify user should not see fax sharing option if Faxing using Phaxio is disabled at enterprise level" name="C940103 - Verify user should not see fax sharing option if Faxing using Phaxio is disabled at enterprise level #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify adding new case with patient creation including EHR/MRN and verify the patient name" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify adding new case with patient creation including EHR/MRN and verify the patient name" name="C378 - Verify adding new case with patient creation including EHR/MRN and verify the patient name #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify editing patient details [MRN, DOB and First and Last Name] via edit button on patient demographics and check the patient information is updated on header" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify editing patient details [MRN, DOB and First and Last Name] via edit button on patient demographics and check the patient information is updated on header" name="C1451916 - Verify editing patient details [MRN, DOB and First and Last Name] via edit button on patient demographics and check the patient information is updated on header #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify user can view all the data on case detail page which was entered during case creation (Service line and facility)" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify user can view all the data on case detail page which was entered during case creation (Service line and facility)" name="C355 - Verify user can view all the data on case detail page which was entered during case creation (Service line and facility) #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify recommend prescription is appearing on provider notes v2(once case is completed)" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify recommend prescription is appearing on provider notes v2(once case is completed)" name="C369 - Verify recommend prescription is appearing on provider notes v2(once case is completed) #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify snippets can be added on provider notes" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify snippets can be added on provider notes" name="C375 - Verify snippets can be added on provider notes #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify creating case with endpoint for any patient user" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify creating case with endpoint for any patient user" name="C405 - Verify creating case with endpoint for any patient user #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="User should successfully mark and unmark a case as Test Case" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="User should successfully mark and unmark a case as Test Case" name="C940133 - Verify user can mark/unmark the case as test via Flag test option on case details page #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify that provider should able to link case with patient to already created case without patient" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify that provider should able to link case with patient to already created case without patient" name="C1425571 - Verify that provider should able to link case with patient to already created case without patient #smoke" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify that My Cases screen is displayed upon clicking My Cases button on dashboard" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify that My Cases screen is displayed upon clicking My Cases button on dashboard" name="C11365 - Verify that My Cases screen is displayed upon clicking My Cases button on dashboard #regression" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify adding MRN on intake form when creating visit without patient" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify adding MRN on intake form when creating visit without patient" name="C382 - Verify adding MRN on intake form when creating visit without patient #smoke" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify downloaded PDF before archiving case and downloaded PDF after archiving case are exactly same [Created case without Patient]" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify downloaded PDF before archiving case and downloaded PDF after archiving case are exactly same [Created case without Patient]" name="C855640 - Verify downloaded PDF before archiving case and downloaded PDF after archiving case are exactly same [Created case without Patient] #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify downloaded PDF before archiving case and downloaded PDF after archiving case are exactly same in terms of data [Created case with Patient]" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify downloaded PDF before archiving case and downloaded PDF after archiving case are exactly same in terms of data [Created case with Patient]" name="C855641 - Verify downloaded PDF before archiving case and downloaded PDF after archiving case are exactly same in terms of data [Created case with Patient] #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify created cases are appearing on all case screen" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify created cases are appearing on all case screen" name="C845364 - Verify created cases are appearing on all case screen #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify my cases tab is showing cases which are assigned to logged provider" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify my cases tab is showing cases which are assigned to logged provider" name="C348 - Verify my cases tab is showing cases which are assigned to logged provider #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify duplicate cases are not showing on all cases page due to multiple MRN against patient" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify duplicate cases are not showing on all cases page due to multiple MRN against patient" name="C855635 - Verify duplicate cases are not showing on all cases page due to multiple MRN against patient #smoke" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify callBack Device and facility filters on all case screen" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="4.035">
+<testcase classname="Verify callBack Device and facility filters on all case screen" name="C908179 - Verify callBack Device and facility filters on all case screen #smoke #sanity #stable" time="4.035">
+<system-out>
+[
+  &quot;✓Navigate to all cases screen&quot;,
+  &quot;✓Click on the filter button&quot;,
+  &quot;✓Click on available non default Callback Device filter&quot;,
+  &quot;✓Check that all elements (cases) in the table have correct selected Callback Device&quot;,
+  &quot;✓Refresh page to reset filters and click filter button&quot;,
+  &quot;✓Click on available non default Facility filter&quot;,
+  &quot;✓Check that all elements (cases) in the table have correct selected Facility&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify searching on all cases page" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify searching on all cases page" name="C908178 - Verify searching on all cases page #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify that Case is created with stroke intake flow, timer and values should be correct and stored values should preserve in Edit case #smoke" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify that Case is created with stroke intake flow, timer and values should be correct and stored values should preserve in Edit case #smoke" name="C1035877 - Verify that Case is created with stroke intake flow, timer and values should be correct and stored values should preserve in Edit case #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify on video call between provider &amp; patient NIHSS button appear/disappear" tests="2" failures="0" errors="0" skipped="2" timestamp="" time="0">
+<testcase classname="Verify on video call between provider &amp; patient NIHSS button appear/disappear" name="C971800 - Verify on video call between provider &amp; patient, NIHSS button doesn&#39;t appear when the check is disabled from enterprise #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+<testcase classname="Verify on video call between provider &amp; patient NIHSS button appear/disappear" name="C971801 - Verify on video call between provider &amp; patient, NIHSS button appear when the check is enabled from enterprise and images are appearing as expected #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify forget password flow (Reset Password) and password rules are working on forget password flow" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="106.669">
+<testcase classname="Verify forget password flow (Reset Password) and password rules are working on forget password flow" name="C347 - Verify forget password flow (Reset Password) and password rules are working on forget password flow #smoke #sanity #stable" time="106.669">
+<system-out>
+[
+  &quot;✓login&quot;,
+  &quot;✓invite new user&quot;,
+  &quot;✓join clinical portal&quot;,
+  &quot;✓logout user&quot;,
+  &quot;✓set code for clinical portal&quot;,
+  &quot;✓forget password and submit&quot;,
+  &quot;✓Set new password&quot;,
+  &quot;✓verify login with new password&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify when a User A send a message, message is received by the User B at their end" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify when a User A send a message, message is received by the User B at their end" name="C494429 - Verify when a User A send a message, message is received by the User B at their end #smoke" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify that Admin provider should be able to merge two or more patients by clicking Mark as Duplicate button" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify that Admin provider should be able to merge two or more patients by clicking Mark as Duplicate button" name="C1366331 &amp; C1366343 - Verify that Admin provider should be able to merge two or more patients by clicking Mark as Duplicate button and verify provider responsible for merge #smoke" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify searching patient with date of birth" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify searching patient with date of birth" name="C780032 - Verify searching patient with date of birth #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify searching patient from name" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify searching patient from name" name="C380 - Verify searching patient from name #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify creating a patient during visit creation with EHR/MRN which already exist - Application should throw loud error" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify creating a patient during visit creation with EHR/MRN which already exist - Application should throw loud error" name="C17604 - Verify creating a patient during visit creation with EHR/MRN which already exist - Application should throw loud error #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify searching patient with MRN [MRN should not exist in system]" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="6.362">
+<testcase classname="Verify searching patient with MRN [MRN should not exist in system]" name="C17605 - Verify searching patient with MRN [MRN should not exist in system] #smoke #sanity #stable" time="6.362">
+<system-out>
+[
+  &quot;✓Should login on sites&quot;,
+  &quot;✓navigate to add patient screen&quot;,
+  &quot;✓select MRN from search options&quot;,
+  &quot;✓enter MRN to search&quot;,
+  &quot;✓select MRN from search options&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify that new patient can be created from Sites &gt; Clinic menu &gt; Patients &gt; Add Patient" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="4.197">
+<testcase classname="Verify that new patient can be created from Sites &gt; Clinic menu &gt; Patients &gt; Add Patient" name="C377 - Verify that new patient can be created from Sites &gt; Clinic menu &gt; Patients &gt; Add Patient #smoke #sanity #stable" time="4.197">
+<system-out>
+[
+  &quot;✓navigate to add patient screen&quot;,
+  &quot;✓add patient save&quot;,
+  &quot;✓Verify that created patient displaying in patient detail page&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Permissions - endpoint calendar" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Permissions - endpoint calendar" name="C1804229 - Permissions - endpoint calendar test #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="All Cases Permissions Bad Rule" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="All Cases Permissions Bad Rule" name="C1804239 - All Cases Permissions Bad Rule #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="permissions - messaging module" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="permissions - messaging module" name="C1804231 - permissions - messaging module #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify creating a patient with EHR/MRN which already exist in system - Application should throw loud error" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="6.033">
+<testcase classname="Verify creating a patient with EHR/MRN which already exist in system - Application should throw loud error" name="C17603 - Verify creating a patient with EHR/MRN which already exist in system - Application should throw loud error #smoke #sanity #stable" time="6.033">
+<system-out>
+[
+  &quot;✓Navigate to Add Patient Page&quot;,
+  &quot;✓Create new patient&quot;,
+  &quot;✓Navigate again to Add Patient Page&quot;,
+  &quot;✓While adding details for another patient, add existing EHR and MRN&quot;,
+  &quot;✓Creating another new patient and adding EHR/MRN of previously created patient should display error message&quot;,
+  &quot;✓Click OK button of error message modal&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="permissions - patient appointment calendar" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="permissions - patient appointment calendar" name="C1804232 - permissions - patient appointment calendar #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Permissions - patient module" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Permissions - patient module" name="C1804233 - Permissions - patient module #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify searching patient with MRN [MRN should exist in system]" tests="1" failures="1" errors="1" skipped="0" timestamp="" time="27.806">
+<testcase classname="Verify searching patient with MRN [MRN should exist in system]" name="C381 - Verify searching patient with MRN [MRN should exist in system] #smoke #stable #sanity" time="27.806">
+<failure message="Error: Element by.cssContainingText(&quot;button.btn&quot;, &quot;Save&quot;) was not found within 20000 milliseconds.">
+
+</failure>
+<system-out>
+[
+  &quot;✓Should login on sites&quot;,
+  &quot;✓navigate to add patient screen&quot;,
+  &quot;✗add patient and save&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Reports Permissions Bad Rule" tests="2" failures="0" errors="0" skipped="2" timestamp="" time="0">
+<testcase classname="Reports Permissions Bad Rule" name="C1804240-A - Ensure form won&#39;t save with only one empty rule #permissions" time="0">
+<skipped/>
+</testcase>
+<testcase classname="Reports Permissions Bad Rule" name="C1804240-B - Ensure form won&#39;t save with one empty and one non-empty rule #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="permissions - settings module" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="permissions - settings module" name="C1804235 - permissions - settings module #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Case Permissions Bad Rule" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Case Permissions Bad Rule" name="C1804238 - Case Permissions Bad Rule #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify user is able to add shift" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify user is able to add shift" name="C349829 - Verify user is able to add shift #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify user is able to remove shift [Individual and Series]" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify user is able to remove shift [Individual and Series]" name="C349831 - Verify user is able to remove shift [Individual and Series] #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify reports is appearing for admin user and not appearing for provider user" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="18.178">
+<testcase classname="Verify reports is appearing for admin user and not appearing for provider user" name="C386 &amp; C512595 - Verify reports is appearing for admin user and not appearing for provider user #smoke #stable #permissions" time="18.178">
+<system-out>
+[
+  &quot;✓setup&quot;,
+  &quot;✓should navigate to System Settings --&gt; Permissions --&gt; Reports --&gt; Basic Stroke Metrics&quot;,
+  &quot;✓should delete existing rules for Reports --&gt; Basic stroke metrics, if they exist&quot;,
+  &quot;✓should add Rule - Role Admin&quot;,
+  &quot;✓should verify that report is visible for admin user&quot;,
+  &quot;✓should logout from admin and login with provider user&quot;,
+  &quot;✓should verify that report is not visible for provider user&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="checks for add/remove favorite user from all users table" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="51.39">
+<testcase classname="checks for add/remove favorite user from all users table" name="C400 &amp; C399 - checks for add/remove favorite user from all users table #smoke #sanity #stable" time="51.39">
+<system-out>
+[
+  &quot;✓should navigate to the directory page&quot;,
+  &quot;✓checks for loading filters and data&quot;,
+  &quot;✓add favorite user from list&quot;,
+  &quot;✓remove favorite user from list&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify user is able to edit shift [Individual and Series]" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify user is able to edit shift [Individual and Series]" name="C349830 - Verify user is able to edit shift [Individual and Series] #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify reports are appearing in sorted order" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="5.725">
+<testcase classname="Verify reports are appearing in sorted order" name="C855639 - Reports - Verify reports are appearing in sorted order #stable #smoke #sanity" time="5.725">
+<system-out>
+[
+  &quot;✓Should login on sites&quot;,
+  &quot;✓Navigate to reports page&quot;,
+  &quot;✓Check reports in dropdown are sorted in Ascending order&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="should verify contact preference values are ON by default for newly created user" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="55.487">
+<testcase classname="should verify contact preference values are ON by default for newly created user" name="C780042 - should verify contact preference values are ON by default for newly created user #smoke #stable" time="55.487">
+<system-out>
+[
+  &quot;✓should invite a new user&quot;,
+  &quot;✓should join site by new user&quot;,
+  &quot;✓should verify contact preferences are ON by default&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="All Cases page Permissions" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="All Cases page Permissions" name="C1804222 - All Cases page Permissions #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+<testsuite name="permissions - connect module" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="permissions - connect module" name="C1804223 - connect module #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+<testsuite name="Coordinator dashboard permissions test" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="65.119">
+<testcase classname="Coordinator dashboard permissions test" name="C1804224 - Coordinator dashboard permissions test #permissions #stable" time="65.119">
+<system-out>
+[
+  &quot;✓setup&quot;,
+  &quot;✓Navigate to System Settings --&gt; Permissions --&gt; Dashboard --&gt; Coordinator Dashboard&quot;,
+  &quot;✓Delete existing rules if they exist&quot;,
+  &quot;✓Add Rule - Role Admin&quot;,
+  &quot;✓Login with another admin user&quot;,
+  &quot;✓Verify that the other admin user can see the coordinator dashboard&quot;,
+  &quot;✓Login as a coordinator user&quot;,
+  &quot;✓Check that the coordinator dashboard does not appear for the coordinator user&quot;
+]</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Negative Test: When access to Dashboards, my cases and all cases page is disabled, the homepage link should navigate to connect page" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Negative Test: When access to Dashboards, my cases and all cases page is disabled, the homepage link should navigate to connect page" name="C1804225 - When access to Dashboards, my cases and all cases page is disabled, the homepage link should navigate to connect page #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+<testsuite name="Negative Test: When access to Coordinator dashboard is disabled, the homepage link should navigate to my cases page" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Negative Test: When access to Coordinator dashboard is disabled, the homepage link should navigate to my cases page" name="C1804226 - Negative Test: When access to Coodinator Dashboard is disabled, the homepage link should navigate to my cases page #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+<testsuite name="Negative Test: When access to Dashboards and my cases page is disabled, the homepage link should navigate to all cases page" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Negative Test: When access to Dashboards and my cases page is disabled, the homepage link should navigate to all cases page" name="C1804227 - Negative Test: When access to Dashboards and my cases page is disabled, the homepage link should navigate to all cases page #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+<testsuite name="Negative Test: When access to Dashboards, my cases, all cases and connectß page is disabled, the homepage link should navigate to the on call page" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Negative Test: When access to Dashboards, my cases, all cases and connectß page is disabled, the homepage link should navigate to the on call page" name="C1804228 - When access to Dashboards, my cases, all cases  and connect page is disabled, the homepage link should navigate to on call page #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+<testsuite name="Case Permissions - Edit case" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Case Permissions - Edit case" name="C1834151 - Only authorized users should be able to edit a case #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+<testsuite name="Managing on call schedules calendar" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Managing on call schedules calendar" name="C1804230 - Managing on call schedules calendar #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+<testsuite name="Provider dashboard permissions test" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Provider dashboard permissions test" name="C1804234 - Provider dashboard permissions test #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+<testsuite name="View Provider On Call Calendar homepage permissions" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="View Provider On Call Calendar homepage permissions" name="C1804236 - View Provider On Call Calendar homepage permissions #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+<testsuite name="Accessing on call schedules calendar" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Accessing on call schedules calendar" name="C1804237 - Accessing on call schedules calendar #permissions" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+<testsuite name="Verify permissions for viewing and editing cases" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify permissions for viewing and editing cases" name="C372 &amp; C373 - Verify logged in user (e.g provider) is not able to view and edit case if View and Edit permission is set for another role (e.g admin) #permissions " time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify terms and conditions page is appearing for new created users and user is redirected to profile page" tests="1" failures="0" errors="0" skipped="1" timestamp="" time="0">
+<testcase classname="Verify terms and conditions page is appearing for new created users and user is redirected to profile page" name="C780039 - Verify terms and conditions page is appearing for new created users and user is redirected to profile page #smoke #sanity" time="0">
+<skipped/>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Site code page" tests="3" failures="0" errors="0" skipped="0" timestamp="" time="6.144">
+<testcase classname="Site code page" name="C1836365 - Empty site code should cause error message #sanity #smoke #stable" time="2.201">
+</testcase>
+<testcase classname="Site code page" name="C1836366 - Invalid site code should cause error message #sanity #stable #smoke" time="1.376">
+</testcase>
+<testcase classname="Site code page" name="C1836367 - Valid site code should lead to login page #stable #sanity #smoke" time="2.567">
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify proper error message is appearing when sending invite via settings to provider user which already exists in system" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="62.614">
+<testcase classname="Verify proper error message is appearing when sending invite via settings to provider user which already exists in system" name="C15997 - Verify proper error message is appearing when sending invite via settings to provider user which already exists in system #stable #smoke" time="62.614">
+<system-out>
+[
+  &quot;✓Should login on sites&quot;,
+  &quot;✓Invite User&quot;,
+  &quot;✓Save invite email&quot;,
+  &quot;✓Join site and land on Profile &amp; Account page&quot;,
+  &quot;✓Send invite again to using previous email&quot;,
+  &quot;✓Error message should appear displaying user already exists message&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify provider user invitation from sites" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="59.132">
+<testcase classname="Verify provider user invitation from sites" name="C337 - Verify provider user invitation from sites #smoke #stable" time="59.132">
+<system-out>
+[
+  &quot;✓Should login on sites&quot;,
+  &quot;✓Invite User&quot;,
+  &quot;✓Save invited user`s email&quot;,
+  &quot;✓Join site and land on Profile &amp; Account page&quot;
+]</system-out>
+</testcase>
+</testsuite>
+</testsuite>
+<testsuite name="" tests="0" failures="0" errors="0" skipped="0" timestamp="" time="0">
+<testsuite name="Verify login using newly created user" tests="1" failures="0" errors="0" skipped="0" timestamp="" time="66.695">
+<testcase classname="Verify login using newly created user" name="C339 - Verify login using newly created user #smoke #sanity #stable" time="66.695">
+<system-out>
+[
+  &quot;✓Should login on sites&quot;,
+  &quot;✓Invite User&quot;,
+  &quot;✓Save email and split email to get username&quot;,
+  &quot;✓Join site and land on Profile &amp; Account page&quot;,
+  &quot;✓Logout and login through new user`s credentials&quot;
+]</system-out>
 </testcase>
 </testsuite>
 </testsuite>
