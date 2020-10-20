@@ -7,7 +7,8 @@
     "jsonjunit": "./index.js"
   },
   "scripts": {
-    "test": "node ./index.js -ju tests/json -jx tests/junit && verify-junit-xml tests/junit/sample.xml"
+    "test": "node ./index.js -ju tests/json -jx tests/junit && verify-junit-xml tests/junit/sample.xml",
+    "test-no-skipped": "node ./index.js --no-skipped -ju tests/json -jx tests/junit && verify-junit-xml tests/junit/sample.xml"
   },
   "repository": {
     "type": "git",

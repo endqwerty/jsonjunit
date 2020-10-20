@@ -11,6 +11,7 @@ let junitFile;
 
 program
   .version(pkg.version)
+  .option("--no-skipped", "don't parse skipped tests")
   .option("-ju, --json <json>", "JSON report target path")
   .option("-jx, --junit <junit>", "JUnitXML report destination path")
   .parse(process.argv);
@@ -26,12 +27,13 @@ if (!program.json || !program.junit) {
 
   const jsonFiles = fs.readdirSync(program.json);
 
+  // eslint-disable-next-line no-restricted-syntax
   for (const i in jsonFiles) {
     if (jsonFiles[i].indexOf(".json") > -1) {
       jsonFile = path.join(program.json, jsonFiles[i]);
       fileName = jsonFiles[i].slice(0, jsonFiles[i].indexOf(".json"));
       junitFile = path.join(program.junit, `${fileName}.xml`);
-      jsonJunit.convertJson(jsonFile, junitFile);
+      jsonJunit.convertJson(jsonFile, junitFile, program.skipped);
     }
   }
 }
